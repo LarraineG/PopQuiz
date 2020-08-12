@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are You A Fitness Guru?</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conatiner">
+        <div id="questions-container" class="hide"></div>
+        <!-- <div id ="questions">Scores</div> -->
+       <div class="controls" >
+           <!-- these are to veiw and enter high scores -->
+        <!-- <button id="view highscore-btn" class="Hightscore-btn">View Highscores</button> -->
+        <!-- <button id="Enter Initials-btn" class="Enter Initials-btn">Enter Initials</button> -->
+        <!-- this button starts quiz -->
+       </div>
+    </div>
+    <h1>Are you a Fitness Guru, Take the quiz and find out</h1>
+    <p>Please answer the following Fitness Related questions to see if you are a fitness guru. Answer the questions honestly. Incorrect answers will penalize your score time by 10 seconds. </p>
+    <br>
+    <h3> Good Luck!</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h6>Are you a Fitness Guru, press start</h6>
+        </div>
+        <div class="col-sm">
+          <button id="start-btn" class="btn btn-primary">Start</button>
+        </div>
+        <div class="col-sm">
+          <h6>Seconds Left:</h6><div><span id="time">60</span></div>
+    <div id="question"></div>
+          <div id="choices">
+            <div class="choice btn" id="a" onclick="check('a')"></div>
+            <div class="choice btn" id="b" onclick="check('b')"></div>
+            <div class="choice btn" id="c" onclick="check('c')"></div>
+          </div>
+          <div id="scoreContainer">High Scores
+            <ul id="highscores"></ul>
+            <!-- <div id="restart">Click to restart</div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
