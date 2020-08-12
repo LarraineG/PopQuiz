@@ -11,40 +11,40 @@ let restart = document.querySelector("#restart");
 let highscores = [];
 // create quiz questions
 const questions = [{
-question: "How many times do you exercise per week?",
-choiceA: "0-1",
-choiceB: "2-4",
-choiceC: "5 or more",
+question: "How many hours outside of class do you need to dedicate to Bootcamp?",
+choiceA: "3",
+choiceB: "40",
+choiceC: "7",
 answer: "b"
 },{
-question: "How long do you exercise?",
-choiceA: "30 min",
-choiceB: "1 hour",
-choiceC: "more than 1 hour",
+question: "Bootstrap is _______.",
+choiceA: "Something for your shoes",
+choiceB: "CSS Framework for developing responsive and mobile-first websites.",
+choiceC: "Framework that is for only developing Javascript",
 answer: "b"
 },{
-question: "How long can you hold plank?",
-choiceA: "under 30s",
-choiceB: "1 min",
-choiceC: "more than 90s",
+question: "What is NOT acceptable to use to declare a variable?",
+choiceA: "var",
+choiceB: "let",
+choiceC: "far",
 answer: "c"
 },{
-question: "How many pushups can you do in a row?",
-choiceA: "0-1",
-choiceB: "2-8",
-choiceC: "10 or more",
+question: "console.log helps you ______",
+choiceA: "Generate buttons",
+choiceB: "Chage backgrounds",
+choiceC: "quietly communicate and log to the console and assists with debugging and tracking your code",
 answer: "c"
 },{
-question: "How much water do you drink a day",
-choiceA: "I prefer wine",
-choiceB: "1-3",
+question: "How many cups of coffee do you drink when coding?",
+choiceA: "1",
+choiceB: "2",
 choiceC: "8 or more",
 answer: "c"
 },{
-question: "What type of food do you eat?",
-choiceA: "all processed",
-choiceB: "80/20",
-choiceC: "mainly fruits and veggies",
+question: "What does DOM stand for?",
+choiceA: "Document Of Math",
+choiceB: "Document Object Model",
+choiceC: "Direction Object Model",
 answer: "b"
 }];
 // create variables
