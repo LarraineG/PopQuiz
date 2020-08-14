@@ -1,0 +1,40 @@
+
+body 
+{
+    background-color: #9999ff;
+    font-family: 'Permanent Marker', cursive;
+}    
+#start-btn 
+{
+    background-color:blueviolet;
+}
+h1 
+{
+    text-align: center;
+}
+h3 
+{
+    text-align: center;
+}
+p 
+{
+    text-align: center;
+    font-size: xx-large;
+}
+.col-sm 
+{
+    margin-top: 50px;
+    font-size: x-large;
+}
+h6 
+{
+    font-size: x-large;
+}
+#time 
+{
+    color:mediumspringgreen;
+}
+#scoreContainer
+{
+    float: left;
+}
